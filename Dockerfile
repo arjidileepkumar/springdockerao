@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8081
-ADD target/webdockerjenkin.jar webdockerjenkin.jar
-ENTRYPOINT ["java","-jar","/webdockerjenkin.jar"]
+ADD target/springdockero-version1.jar springdockero-version1.jar
+ENTRYPOINT ["java","-jar","/springdockero-version1.jar"]
